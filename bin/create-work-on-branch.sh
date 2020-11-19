@@ -52,7 +52,7 @@ function create_new_directory() {
     newdirectory=$(create_name)
     echo "[$step] Creating new directory called '${newdirectory}'"
     mkdir $newdirectory
-    touch "${newdirectory}.gitkeep"
+    touch "${newdirectory}/.gitkeep"
     git add -A
     git commit -m "${step} Added a new directory to branch"
 }
