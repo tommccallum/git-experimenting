@@ -9,7 +9,7 @@ Do not run this via a clone please!
 **Fork** this project and then run the script commands to generate an example set of commits. You can modify this file to generate a different workload.
 
 ```
-git clone <Your new fork>/get-experimenting
+git clone <Your new fork>/git-experimenting
 ./bin/make-repo-contents.sh
 ```
 
