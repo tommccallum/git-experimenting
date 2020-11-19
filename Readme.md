@@ -8,6 +8,14 @@ Do not run this via a clone please!
 
 Fork this project and then run the scripts so the main dev line does not get full of test commits.
 
+## Git Tips
+
+Don’t push your work until you’re happy with it
+
+> "One of the cardinal rules of Git is that, since so much work is local within your clone, you have a great deal of freedom to rewrite your history locally. However, once you push your work, it is a different story entirely, and you should consider pushed work as final unless you have good reason to change it. In short, you should avoid pushing your work until you’re happy with it and ready to share it with the rest of the world." - https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History
+
+> "[When rebasing] Don’t include any commit you’ve already pushed to a central server — doing so will confuse other developers by providing an alternate version of the same change." - https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History
+
 ## Useful aliases
 
 Below are some useful aliases if you are playing about with git.

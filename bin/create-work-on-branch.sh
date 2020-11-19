@@ -57,6 +57,12 @@ function create_new_directory() {
     git commit -m "${step} Added a new directory to branch"
 }
 
+function change_last_commit() {
+    step=$1
+    echo "[$step] Changing last commit message"
+    git commit --amend -m "${step} last commit message changed"
+}
+
 for ii in $(seq 1 $how_much_work)
 do
     action=$((1+$RANDOM%3))
