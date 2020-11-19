@@ -8,7 +8,7 @@ then
     how_much_work=10
 fi
 
-branchName=$(git status | grep "^On branch" | sed "s/^On branch //" | sed "s/ /_/" | sed "s&/&_&")
+branchName=$(git branch --show-current | sed "s/ /_/" | sed "s&/&_&")
 echo "Performing some work on this branch"
 echo "Branch: $branchName"
 echo "Work steps: $how_much_work"
