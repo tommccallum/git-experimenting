@@ -2,6 +2,12 @@
 
 A public repository to practice forking and merging etc with students.
 
+## How to use
+
+Do not run this via a clone please!
+
+Fork this project and then run the scripts so the main dev line does not get full of test commits.
+
 ## Useful aliases
 
 ```
