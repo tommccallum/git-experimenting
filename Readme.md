@@ -6,7 +6,13 @@ A public repository to practice forking and merging etc with students.
 
 Do not run this via a clone please!
 
-Fork this project and then run the scripts so the main dev line does not get full of test commits.
+**Fork** this project and then run the script commands to generate an example set of commits. You can modify this file to generate a different workload.
+
+```
+git clone <Your new fork>/get-experimenting
+./bin/make-repo-contents.sh
+```
+
 
 ## Git Tips
 
