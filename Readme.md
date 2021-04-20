@@ -46,6 +46,8 @@ git push origin master      # push changes to new repo
 
 ## Typical local dev team workflow
 
+Checkout [https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) for the main flows.  The one here is the Forking workflow.
+
 * Assumes that you have a central master repository that you are developing.
 * Assumes you are building for a local machine installation.
 * Assumes you do not want to develop branches on the main repository.
